@@ -1,0 +1,88 @@
+body {
+    background-image: url("road.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+h3 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}
+
+.CarPosLeft {
+    width: 500px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 2px solid lightgrey;
+    box-shadow: -20px -20px 5px grey;
+}
+
+.CarPosRight {
+    width: 500px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 2px solid lightgrey;
+    box-shadow: 20px -20px 5px grey;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+ul {
+    color: brown;
+    font-size: 17px;
+    list-style-position: inside;
+}
+
+.plus {
+    list-style-image: url("plus.png");
+}
+
+.minus {
+    list-style-image: url("minus.png");
+}
+
+.a_position {
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+
+}
+
+ol {
+    list-style-type: none;
+
+}
+
+ol li {
+    display: inline;
+    margin-right: 40px;
+}
+
+ol a {
+    text-decoration: none;
+}
